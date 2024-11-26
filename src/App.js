@@ -20,7 +20,7 @@ function App() {
       setError("Failed to fetch a random quote.");
     }
   };
-
+  const cart = "";
   const searchQuotes = async () => {
     try {
       const response = await axios.get(`${API_BASE_URL}/search`, {
