@@ -10,6 +10,7 @@ function App() {
   const [searchResults, setSearchResults] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [error, setError] = useState(null);
+  const payment="";
 
   const fetchRandomQuote = async () => {
     try {
